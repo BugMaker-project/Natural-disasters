@@ -18,9 +18,18 @@ def CrashArray():
     arraylist=np.random.permutation(arraylist)
     arraylist=np.random.permutation(arraylist)
     return arraylist
-def SuccessProbability():
+def SuccessProbability(mode):
     #成功概率列表
-    SuccessProbabilityArray=[0,0,0,0,0,0,1,1,1,1,1,1]
+    if mode=="Normally":
+        SuccessProbabilityArray=[0,0,0,0,0,0,1,1,1,1,1,1]
+    elif mode=="Difficult":
+        SuccessProbabilityArray=[0,0,0,0,1,1,1,1,1,1,1,1]
+    elif mode=="Easy":
+        SuccessProbabilityArray=[0,0,0,0,0,0,0,0,1,1,1,1]
+    elif mode=="Most Difficult":
+        SuccessProbabilityArray=[0,0,0,1,1,1,1,1,1,1,1,1]
+    elif mode=="Most Easy":
+        SuccessProbabilityArray=[0,0,0,0,0,0,0,0,0,1,1,1]
     #改为array阵列类型
     SuccessProbabilityArray=np.asarray(SuccessProbabilityArray)
     #4次随机打乱
