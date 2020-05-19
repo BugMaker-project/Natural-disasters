@@ -1,0 +1,11 @@
+from Reserved_interface.injure import *
+Hero=Injure(10000,100,100,100,100)
+Hero.ColdWeaponDamage()
+Hero.HotWeaponDamage()
+Hero.ColdWeaponDamage()
+Hero.HotWeaponDamage()
+Hero.ColdWeaponDamage()
+Hero.HotWeaponDamage()
+Hero.ColdWeaponDamage()
+Hero.HotWeaponDamage()
+print(Hero.blood)
