@@ -16,5 +16,9 @@
         ".NET-Version(Time_emit)": null,
         "Numpy,Pygame,other packages": "All is OK."
     },
-    "Compiling environment": "Python3.6.x with pyinstaller"
+    "Compiling environment": "Python3.6.x with pyinstaller",
+    "LICENSE": "GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007",
+    "Business?": "NO!",
+    "Code hosting platform": ["GITHUB", "GITEE"],
+    "Websites": "https://BugMaker-project.github.io"
 }
