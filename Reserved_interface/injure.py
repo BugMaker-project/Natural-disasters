@@ -136,4 +136,5 @@ class Injure(object):
         self.DeductionOfIntelligenceVolume=rd.randint(degree/3,degree)
         self.intelligence-=self.DeductionOfIntelligenceVolume
         self.spirit-=self.DeductionOfIntelligenceVolume/3
-        
+        self.DeductionOfIntelligenceVolume=None
+    def 
