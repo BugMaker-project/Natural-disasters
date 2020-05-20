@@ -45,7 +45,6 @@ def jsonGot():
         result=o.read()
         result=json.loads(result)
         GameVar.gameInfo=result
-
 def GameInit():
     jsonGot()
 
