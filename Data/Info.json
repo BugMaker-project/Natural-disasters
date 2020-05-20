@@ -1,5 +1,18 @@
 {
     "Auntors": ["Time_emit", "lzhbhlrPython"],
     "Version": "Beta0.1-2020",
-    "name": "Natural disasters"
+    "Devlop?": true,
+    "Release?": false,
+    "name": "Natural disasters",
+    "Planner": "Time_emit",
+    "Coder": "lzhbhlrPython",
+    "Invention Person": "Begonia",
+    "isOK": false,
+    "Devlop Version": {
+        "Main": "Python 3.6.x",
+        "Others": "Anaconda3 Python3.7",
+        "CppVersion": "C++11 by MinGW-64,DevCPP",
+        "JDKVersion": "JDK11,Java11 by VScode",
+        ".NETVersion": null
+    }
 }
