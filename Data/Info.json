@@ -15,5 +15,6 @@
         "JDK-Version(lzhbhlrPython)": "JDK11,Java11 by VScode",
         ".NET-Version(Time_emit)": null,
         "Numpy,Pygame,other packages": "All is OK."
-    }
+    },
+    "Compiling environment": "Python3.6.x with pyinstaller"
 }
