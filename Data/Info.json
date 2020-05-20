@@ -11,8 +11,9 @@
     "Devlop Version": {
         "Main": "Python 3.6.x",
         "Others": "Anaconda3 Python3.7",
-        "CppVersion": "C++11 by MinGW-64,DevCPP",
-        "JDKVersion": "JDK11,Java11 by VScode",
-        ".NETVersion": null
+        "Cpp-Version(Begonia)": "C++11 by MinGW-64,DevCPP",
+        "JDK-Version(lzhbhlrPython)": "JDK11,Java11 by VScode",
+        ".NET-Version(Time_emit)": null,
+        "Numpy,Pygame,other packages": "All is OK."
     }
 }
