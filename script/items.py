@@ -1,5 +1,5 @@
 import pygame,math,random
-from script.sprite import Sprite
+from sprite import Sprite
 
 land_sprite = pygame.image.load("../image/land_sprite.png")
 

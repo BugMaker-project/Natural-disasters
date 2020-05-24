@@ -6,7 +6,7 @@
     "name": "Natural disasters",
     "Planner": "Time_emit",
     "Coder": "lzhbhlrPython",
-    "Invention Person": "Begonia",
+    "Invention Person": ["Begonia", "Jiangxia"],
     "isOK": false,
     "Devlop Version": {
         "Main": "Python 3.6.x",
