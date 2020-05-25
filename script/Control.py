@@ -31,13 +31,13 @@ def Menu():
             with open("..//Data//Keys.Key","wb") as j:
                 j.write(bytes(Key,"utf-8"))
             colorfulText.printGreen("OK\n")
-        else:
+        if not isKeyCorrect:
             colorfulText.printGreen("Incorrect!\n")
-    elif reponse=="2":
+    if reponse=="2":
         pass
-    elif reponse=="3":
+    if reponse=="3":
         pass
-    elif reponse=="4":
+    if reponse=="4":
         sys.exit()
 def Main():
     Hi()
