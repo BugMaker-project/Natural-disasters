@@ -1,6 +1,7 @@
 import colorfulText
 import Keys
 import Error
+import vars
 import time,sys
 def Hi():
     colorfulText.printRed("""
@@ -26,15 +27,22 @@ def Menu():
     reponse=input("\n\n\n>>>")
     if reponse=="1":
         Key=input("Enter:")
-        isKeyCorrect=Keys.isIn(Key,Keys.read(Keys.returnObject("..//Data//Keys.xls")))
+        isKeyCorrect=Keys.isIn(Key,Keys.read(Keys.returnObject(vars.PATHS.KeysPaths)))
         if isKeyCorrect:
-            with open("..//Data//Keys.Key","wb") as j:
+            with open(vars.PATHS.KeysWrite,"wb") as j:
                 j.write(bytes(Key,"utf-8"))
             colorfulText.printGreen("OK\n")
         if not isKeyCorrect:
             colorfulText.printGreen("Incorrect!\n")
     if reponse=="2":
-        pass
+        Codes=input("Enter:")
+        listCodes=Keys.read(Keys.returnObject(vars.PATHS.CodesPaths))
+        isCodesCorrect=Keys.isIn(Codes,Keys.read(listCodes))
+        if isCodesCorrect:
+            colorfulText.printGreen("OK\n")
+            vars.Controls.ReturnsInXlsx=Keys.read(listCodes)[listCodes.index(Codes)+1]
+        if not isCodesCorrect:
+            colorfulText.printGreen("Incorrect!\n")
     if reponse=="3":
         pass
     if reponse=="4":

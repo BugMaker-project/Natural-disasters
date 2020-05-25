@@ -2,7 +2,7 @@ import pygame
 from pygame.locals import *
 import sys,json,time
 import script as scr
-back1=pygame.image.load("image//main_backGuond.png")
+back1=pygame.image.load(scr.vars.PATHS.backStart)
 #创建一个canvas并填为白色
 pygame.init()
 canvas=pygame.display.set_mode([640,360])
@@ -29,8 +29,8 @@ class BackGround():
     def __init__(self):
         self.x = 0
         self.y = 0
-
-
+        
+        
 class GameVar():
     #单元格长宽
     index_width = 16
@@ -39,7 +39,8 @@ class GameVar():
     #State:[HOME,START,RUNNING,QUIT]
     GameState="HOME"
     back=BackGround()
-
+    
+    
 def jsonGot():
     with open(r".\Data\Info.json") as o:
         result=o.read()
