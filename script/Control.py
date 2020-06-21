@@ -1,7 +1,4 @@
-import colorfulText
-import Keys
-import Error
-import vars
+from script import colorfulText,Keys,Error,var
 import time,sys
 def Hi():
     colorfulText.printRed("""

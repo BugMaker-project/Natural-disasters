@@ -1,5 +1,5 @@
 import xlrd
-from Error import *
+from script.Error import *
 def returnObject(keysXlsx: str):
     """Read File,Return Book Object."""
     keys = xlrd.open_workbook(keysXlsx)

@@ -1,4 +1,3 @@
-
 class Sprite():
     def __init__(self,canvas,source,width,height):
         self.canvas = canvas

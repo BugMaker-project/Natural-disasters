@@ -1,6 +1,6 @@
 import pygame,math,random
-from sprite import Sprite
-from vars import PATHS
+from script.sprite import Sprite
+from script.var import PATHS
 
 land_sprite = pygame.image.load(PATHS.land_sprite)
 
@@ -33,7 +33,7 @@ class Unit():
         x = self.x * GameVar.index_width
         y = self.y * GameVar.index_height
         Sprite.draw(self.index,x,y,self.index_width,self.index_height)
-
+'''TODO:修复Unit继承关系
 #错误方块类
 class Error(Unit):
     def __init__(self,column,line,canvas):
@@ -83,4 +83,4 @@ class Grass_land(Unit):
 
 
 
-block_dictionary = [Grass_land(0,0,"null_canvas",1,1,1)]
+block_dictionary = [Grass_land(0,0,"null_canvas",1,1,1)]'''
