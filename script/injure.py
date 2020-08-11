@@ -137,5 +137,6 @@ class Injure(object):
         self.intelligence-=self.DeductionOfIntelligenceVolume
         self.spirit-=self.DeductionOfIntelligenceVolume/3
         self.DeductionOfIntelligenceVolume=None
-    def FoodPoisoning(self,degree:int):
-        pass
+    def FoodPoisoning(self):
+        self.PhysicalFitness-=rd.randint(0,10)
+        self.intelligence-=rd.randint(0,2)

@@ -1,12 +1,11 @@
 import pygame
 from pygame.locals import *
 import sys,json,time
-from script import Error,colorfulText,Control,Crash,injure
-from script import items,Keys,Logs,maths,sprite,timers,var,world_create
-back1=pygame.image.load(var.PATHS.backStart)
+import script as scr
+back1=pygame.image.load(scr.var.PATHS.backStart)
 #创建一个canvas并填为白色
 pygame.init()
-canvas=pygame.display.set_mode([640,360])
+canvas=pygame.display.set_mode([1280,720])
 canvas.fill([255,255,255])
 #创建handleEvent函数
 def handleEvent():
@@ -35,17 +34,14 @@ class GameVar():
     gameInfo=None
     #State:[HOME,START,RUNNING,QUIT]
     GameState="HOME"
-    back=BackGround()
-    
-    
+
 def jsonGot():
-    with open(r".\Data\Info.json") as o:
+    with open(r".\\Data\\Info.json") as o:
         result=o.read()
         result=json.loads(result)
         GameVar.gameInfo=result
 def GameInit():
     jsonGot()
-
 def control():
     if GameVar.GameState == "HOME":
         canvas.blit(back1,(GameVar.back.x,GameVar.back.y))

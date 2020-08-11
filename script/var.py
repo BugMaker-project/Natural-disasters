@@ -10,5 +10,7 @@ class PATHS(ScriptVars):
     backStart="image//HOME_Background.png"
     def __str__(self):
         return "PATHS(CLASS)"
+class someSets(ScriptVars):
+    state={}
 class Controls(ScriptVars):
     ReturnsInXlsx=None

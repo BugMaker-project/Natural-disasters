@@ -1,4 +1,4 @@
-from script import colorfulText,Keys,Error,var
+from . import colorfulText,Keys,Error,var
 import time,sys
 def Hi():
     colorfulText.printRed("""
