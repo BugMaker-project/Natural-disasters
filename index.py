@@ -22,10 +22,6 @@ def isActionTime(lastTime,interval):
     currentTime = time.time()
     return currentTime - lastTime >= interval
 
-
-
-
-
 class BackGround():
     def __init__(self):
         self.x = 0
