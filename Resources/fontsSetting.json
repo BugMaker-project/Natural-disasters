@@ -1,4 +1,4 @@
 {
-    "Text": "./Resources/Fonts/SourceHanSerfICN/Regular.otf",
-    "TextBold": "./Resources/Fonts/SourceHanSerfICN/SemiBold.otf"
+    "Text": "Resources/Fonts/SourceHanSerfICN/Regular.otf",
+    "TextBold": "Resources/Fonts/SourceHanSerfICN/SemiBold.otf"
 }

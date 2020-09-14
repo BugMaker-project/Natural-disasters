@@ -1,2 +1,2 @@
 import Engine.Core as core
-print(core.items.Sprite())
+print(core.imageFont_load.FontsSetting.NormalText)

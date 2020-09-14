@@ -1,7 +1,7 @@
 import pygame,math,random
 from Engine.Core.sprite import Sprite
 
-land_sprite = pygame.image.load(PATHS.land_sprite)
+#land_sprite = pygame.image.load(PATHS.land_sprite)
 
 
 
