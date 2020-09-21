@@ -1,12 +1,12 @@
 # Natural-disasters
-### Author:All Person in BugMaker-Project
+### Author:All Members in BugMaker-Project
 
 ### Copyright:Bugmaker-Project :bug:
 
 >**License**
-This Game is about some Natural-disasters.
-With SATANB License by ourselves to use it.(SATA:https://github.com/zTrix/sata-license)
-You should give me a star, and you can use for anywhere.   
+>This Game is about some Natural-disasters.
+>With SATANB License by ourselves to use it.(SATA:https://github.com/zTrix/sata-license)
+>You should give me a star, and you can use for anywhere.   
 
 >**OpenSource**
 >We believe the power of community.
