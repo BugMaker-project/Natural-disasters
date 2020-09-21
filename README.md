@@ -14,6 +14,6 @@
 
 *Last Modify Time: 09.21.2020*
 
-*Last Modify Person: @lzhbhlrPython*
+*Last Modify Person:* @BugMaker-Project/lzhbhlrPython
 
 *Thanks for your stars*
