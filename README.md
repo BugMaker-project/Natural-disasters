@@ -14,6 +14,6 @@
 
 *Last Modify Time: 09.21.2020*
 
-*Last Modify Person: Barry Liu*
+*Last Modify Person: @lzhbhlrPython*
 
 *Thanks for your stars*
