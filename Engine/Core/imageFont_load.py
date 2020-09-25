@@ -1,8 +1,15 @@
 import json
-from Engine.Until.object_init import FontLoad
-fontSetting="./Resources/fontsSetting.json"
-fontSetting=json.load(open(fontSetting,encoding="utf-8"))
-imageSetting="./Resources/imageSetting.json"
-fontSetting=json.load(open(fontSetting,encoding="utf-8"))
+fontSetting = "./Resources/fontsSetting.json"
+fontSetting = json.load(open(fontSetting, encoding="utf-8"))
+imageSetting = "./Resources/imageSetting.json"
+imageSetting = json.load(open(imageSetting, encoding="utf-8"))
+
+
 class FontsSetting():
-    NormalText=+fontSetting["Text"]
+    TitleText = fontSetting["Title"]
+
+
+class ImageSetting():
+    background = imageSetting["background"]
+    texture = imageSetting["texture"]
+    title = imageSetting["title"]

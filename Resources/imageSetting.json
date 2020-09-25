@@ -1,4 +1,5 @@
 {
-    "sprite": "./Resources/image/land_sprite.png",
-    "background": "./Resources/image/HOME_Background.png"
+    "texture": "./Resources/image/land_sprite.png",
+    "background": "./Resources/image/HOME_Background.png",
+    "title": "./Resources/image/Text/Title.png"
 }
